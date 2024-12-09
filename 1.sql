@@ -84,8 +84,11 @@ create table sale_order(
 );
 
 insert into sale_order(order_no, order_date, client_no, Dely_Addr, Salesman_no, Dely_type, Billed_yn, Dely_date, Order_status) values
-('O19001', 12-Jan-96, 'C00001', F, N, 'S00001', 20-Jan-96, 'In process'),
-('O19002', 25-Jan-96, 'C00002', P, N, 'S00002', 27-Jan-96, 'Canclled');
+('O19001', 12-Jan-96, 'C00001', F, N, 'S00001', 20-Jan-96, 'in process'),
+('O19002', 25-Jan-96, 'C00002', P, N, 'S00002', 27-Jan-96, 'cancelled'),
+('O46865', 18-Feb-96, 'C00003', F, Y, 'S00003', 20-Feb-96, 'fullfield'),
+('O19003', 03-Apr-96, 'C00001', F, Y, 'S00001', 07-Apr-96, 'fullfield'),
+('O46866', 20-May-96, 'C00004', P, N, 'S00002', 22-May-96, 'cancelled'),
 
 create table sale_order_details(
 	order_no varchar(6),
